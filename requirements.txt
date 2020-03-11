@@ -1,0 +1,6 @@
+numpy
+pandas>=1.0.0
+jupyter>=1.0.0
+xlrd>= 1.2.0
+openpyxl>=3.0.0
+xlsxwriter>=1.2.0
