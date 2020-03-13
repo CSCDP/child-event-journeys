@@ -37,7 +37,7 @@ The reduced column allows for easy searches: if I wanted to see all the children
 
 ### Requirements
 To run this programme, you will need to:
-- Have installed Python and created a conda environment aligned with requirements.txt.
+- Have installed Python and created a conda environment aligned with ```requirements.txt```.
 - Have an Annex A spreadsheet aligned with the [Annex A Ofsted guidance](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/824188/Child-level_data_-_additional_guidance_and_template_for_Annex_A__1_.ods). In particular:
     - The input file tabs are labeled "List_1", "List_2", etc.
     - The first row of each tab is the column headers
@@ -45,7 +45,7 @@ To run this programme, you will need to:
 
 
 ### Running the code
-The only code you need to run is in the child_journeys_creation notebook. You'll need to:
+The only code you need to run is in the ```00-child_journeys``` notebook. You'll need to:
 - Define the filepath to the input_file: your Annex A
 - Define the filepath to the output_file: the output file will be an Excel table with 1) the child unique ID, 2) the child journey, 3) the "reduced" child journey. There will be a second tab explaining the abbreviations in the reduced journey.
 - Run all the cells!
