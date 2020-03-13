@@ -1,7 +1,0 @@
-Assumptions
-
-- Picking up correct lists: The Annex A has tabs with "List_1", "List_2", etc. aligned with the Ofsted guidance. 
-- Picking up columns: 
-    - Column header: Simple column pick up code turning everything into lower case and removing empty spaces at the end. If the code can't find the column, it will print it out so that the user can manually edit it.
-    - No 'empty' header: the first row must be the column titles (different to the Ofsted guidance)
-- Did not include any dates from List_9 onwards as they are less relevant for the child journey
